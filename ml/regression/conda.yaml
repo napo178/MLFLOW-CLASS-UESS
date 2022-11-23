@@ -1,0 +1,10 @@
+name: regression
+channels:
+  - defaults
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - scikit-learn
+  - pip:
+    - mlflow
